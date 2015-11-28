@@ -1,0 +1,21 @@
+{
+  "name": "broc-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krzysztof Modras <krzysztof.modras@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "broccoli": "^0.16.9",
+    "broccoli-babel-transpiler": "^5.5.0",
+    "broccoli-funnel": "^1.0.1",
+    "broccoli-merge-trees": "^1.0.0",
+    "broccoli-source-map": "^0.2.3"
+  },
+  "dependencies": {
+    "es6-micro-loader": "^0.2.1"
+  }
+}
